@@ -7,7 +7,7 @@ const {auth} = require('./middlewares/auth');
 
 const app = express();
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://rezade2004:235689red@ds125482.mlab.com:25482/myauth',{useNewUrlParser:true});
+mongoose.connect('mongodb://@ds125482.mlab.com:25482/myauth',{useNewUrlParser:true});
 app.use(bodyParser.json());
 app.use(cookieParser());
 
