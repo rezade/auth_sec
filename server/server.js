@@ -38,7 +38,7 @@ app.post('/api/user/login',(req,res)=>{
         });
     });
 });
-
+//no changes should be made
 app.get('/user/profile', auth, (req,res)=>{
 /*
     let token = req.cookies.auth;
